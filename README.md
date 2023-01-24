@@ -1,16 +1,36 @@
-# portfolio2
+# 🚀 Portfólio 2.0
 
-A new Flutter project.
+## 📖 Sobre
 
-## Getting Started
+Este é o meu portfólio, onde você pode encontrar alguns dos meus projetos e trabalhos.
 
-This project is a starting point for a Flutter application.
+## 📋 Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ⚙️ Como executar o projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone o repositório
+```bash
+git clone https://github.com/joaopaulovieira-dev/portfolio2
+```
+
+- Entre na pasta do projeto
+```bash
+cd portfolio2
+```
+
+- Instale as dependências
+```bash
+flutter pub get
+```
+
+- Inicie o projeto
+```bash         
+flutter run
+```
+
+## 💻 Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
