@@ -12,25 +12,25 @@ final List<DesignProcess> designProcesses = [
     title: "DESIGN",
     imagePath: "assets/design.png",
     subtitle:
-        "A full stack allround designer thay may or may not include a guide for specific creative",
+        "Um designer completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "DEVELOP",
     imagePath: "assets/develop.png",
     subtitle:
-        "A full stack allround developer thay may or may not include a guide for specific creative",
+        "Um desenvolvedor completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "WRITE",
     imagePath: "assets/write.png",
     subtitle:
-        "A full stack allround writer thay may or may not include a guide for specific creative",
+        "Um redator completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "PROMOTE",
     imagePath: "assets/promote.png",
     subtitle:
-        "A full stack allround promoter thay may or may not include a guide for specific creative",
+        "Um promotor completo que pode ou não incluir um guia para criativos específicos",
   ),
 ];
 
@@ -62,7 +62,7 @@ class CvSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "BETTER DESIGN,\nBETTER EXPERIENCES",
+                "MELHOR DESIGN,\nMELHORES EXPERIÊNCIAS",
                 style: GoogleFonts.oswald(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,
@@ -75,7 +75,7 @@ class CvSection extends StatelessWidget {
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: Text(
-                    "DOWNLOAD CV",
+                    "BAIXAR CURRÍCULO",
                     style: GoogleFonts.oswald(
                       color: kPrimaryColor,
                       fontWeight: FontWeight.w900,

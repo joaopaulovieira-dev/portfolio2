@@ -55,7 +55,7 @@ class EducationSection extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              "EDUCATION",
+              "ESCOLARIDADE",
               style: GoogleFonts.oswald(
                 color: Colors.white,
                 fontWeight: FontWeight.w900,
@@ -71,7 +71,7 @@ class EducationSection extends StatelessWidget {
                 Container(
                   constraints: const BoxConstraints(maxWidth: 400.0),
                   child: const Text(
-                    "A full stack all round developer that does all the job he needs to do at all times. Actually this is a false statement",
+                    "Um desenvolvedor completo que faz todo o trabalho que precisa fazer o tempo todo.",
                     style: TextStyle(
                       color: Colors.white,
                       height: 1.5,

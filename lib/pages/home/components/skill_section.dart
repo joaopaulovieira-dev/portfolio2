@@ -81,7 +81,7 @@ class SkillSection extends StatelessWidget {
                         height: 10.0,
                       ),
                       const Text(
-                        "This is all the skills listed below more will be added in due time. This is all the skills listed below more will be added in due time.",
+                        "Estas são todas as habilidades listadas abaixo, mais serão adicionadas no devido tempo. Estas são todas as habilidades listadas abaixo, mais serão adicionadas no devido tempo.",
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,
