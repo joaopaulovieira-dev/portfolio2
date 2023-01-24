@@ -67,7 +67,7 @@ class IosAppAd extends StatelessWidget {
                         height: 10.0,
                       ),
                       const Text(
-                        "This is a random text about the project, I should have used the regular lorem ipsum text, but I am too lazy to search for that. This should be long enough",
+                        "Este é um texto aleatório sobre o projeto, eu deveria ter usado o texto normal do lorem ipsum, mas estou com preguiça de procurar por isso. Isso deve ser longo o suficiente",
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,
@@ -94,7 +94,7 @@ class IosAppAd extends StatelessWidget {
                                 onPressed: () {},
                                 child: const Center(
                                   child: Text(
-                                    "EXPLORE MORE",
+                                    "EXPLORE MAIS",
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 13.0,
@@ -124,7 +124,7 @@ class IosAppAd extends StatelessWidget {
                                 onPressed: () {},
                                 child: const Center(
                                   child: Text(
-                                    "NEXT APP",
+                                    "PRÓXIMO APP",
                                     style: TextStyle(
                                       color: kPrimaryColor,
                                       fontSize: 13.0,

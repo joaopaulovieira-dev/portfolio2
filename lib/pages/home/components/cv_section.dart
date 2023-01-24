@@ -1,3 +1,5 @@
+// ignore_for_file: sized_box_for_whitespace, avoid_unnecessary_containers, no_leading_underscores_for_local_identifiers
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio2/models/design_process.dart';
@@ -10,29 +12,31 @@ final List<DesignProcess> designProcesses = [
     title: "DESIGN",
     imagePath: "assets/design.png",
     subtitle:
-        "A full stack allround designer thay may or may not include a guide for specific creative",
+        "Um designer completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "DEVELOP",
     imagePath: "assets/develop.png",
     subtitle:
-        "A full stack allround developer thay may or may not include a guide for specific creative",
+        "Um desenvolvedor completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "WRITE",
     imagePath: "assets/write.png",
     subtitle:
-        "A full stack allround writer thay may or may not include a guide for specific creative",
+        "Um redator completo que pode ou não incluir um guia para criativos específicos",
   ),
   DesignProcess(
     title: "PROMOTE",
     imagePath: "assets/promote.png",
     subtitle:
-        "A full stack allround promoter thay may or may not include a guide for specific creative",
+        "Um promotor completo que pode ou não incluir um guia para criativos específicos",
   ),
 ];
 
 class CvSection extends StatelessWidget {
+  const CvSection({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -58,7 +62,7 @@ class CvSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "BETTER DESIGN,\nBETTER EXPERIENCES",
+                "MELHOR DESIGN,\nMELHORES EXPERIÊNCIAS",
                 style: GoogleFonts.oswald(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,
@@ -71,7 +75,7 @@ class CvSection extends StatelessWidget {
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: Text(
-                    "DOWNLOAD CV",
+                    "BAIXAR CURRÍCULO",
                     style: GoogleFonts.oswald(
                       color: kPrimaryColor,
                       fontWeight: FontWeight.w900,
@@ -82,16 +86,16 @@ class CvSection extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 50.0,
           ),
           Container(
             child: LayoutBuilder(
               builder: (_context, constraints) {
                 return ResponsiveGridView.builder(
-                  padding: EdgeInsets.all(0.0),
+                  padding: const EdgeInsets.all(0.0),
                   shrinkWrap: true,
-                  physics: NeverScrollableScrollPhysics(),
+                  physics: const NeverScrollableScrollPhysics(),
                   alignment: Alignment.topCenter,
                   gridDelegate: ResponsiveGridDelegate(
                     mainAxisSpacing: 20.0,
@@ -117,7 +121,7 @@ class CvSection extends StatelessWidget {
                                 designProcesses[index].imagePath,
                                 width: 40.0,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 15.0,
                               ),
                               Text(
@@ -130,12 +134,12 @@ class CvSection extends StatelessWidget {
                               )
                             ],
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 15.0,
                           ),
                           Text(
                             designProcesses[index].subtitle,
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: kCaptionColor,
                               height: 1.5,
                               fontSize: 14.0,

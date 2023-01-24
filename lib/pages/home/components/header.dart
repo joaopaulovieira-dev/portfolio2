@@ -146,11 +146,10 @@ class Header extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const HeaderLogo(),
-            // Restart server to make icons work
-            // Lets make a scaffold key and create a drawer
+            // Reinicie o servidor para fazer os ícones funcionarem
             GestureDetector(
               onTap: () {
-                // Lets open drawer using global key
+                // Permite abrir a gaveta usando a chave global
                 Globals.scaffoldKey.currentState.openEndDrawer();
               },
               child: const Icon(
@@ -165,7 +164,7 @@ class Header extends StatelessWidget {
     );
   }
 
-  // Lets plan for mobile and smaller width screens
+  // Permite planejar para dispositivos móveis e telas de largura menor
   Widget buildHeader() {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
