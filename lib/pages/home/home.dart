@@ -82,6 +82,7 @@ class Home extends StatelessWidget {
             ),
             const CvSection(),
             const IosAppAd(),
+            const IosAppAd(),
             const SizedBox(
               height: 70.0,
             ),

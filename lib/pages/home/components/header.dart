@@ -9,20 +9,13 @@ import 'package:portfolio2/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 List<HeaderItem> headerItems = [
-  HeaderItem(
-    title: "HOME",
-    onTap: () {},
-  ),
-  HeaderItem(title: "MY INTRO", onTap: () {}),
-  HeaderItem(title: "SERVICES", onTap: () {}),
-  HeaderItem(title: "PORTFOLIO", onTap: () {}),
-  HeaderItem(title: "TESTIMONIALS", onTap: () {}),
-  HeaderItem(title: "BLOGS", onTap: () {}),
-  HeaderItem(
-    title: "HIRE ME",
-    onTap: () {},
-    isButton: true,
-  ),
+  HeaderItem(title: "INÍCIO", onTap: () {}),
+  HeaderItem(title: "SOBRE MIM", onTap: () {}),
+  HeaderItem(title: "SERVIÇOS", onTap: () {}),
+  HeaderItem(title: "PROJETOS", onTap: () {}),
+  HeaderItem(title: "AVALIAÇÕES", onTap: () {}),
+  HeaderItem(title: "CONTATO", onTap: () {}),
+  HeaderItem(title: "CURRÍCULO", onTap: () {}, isButton: true),
 ];
 
 class HeaderLogo extends StatelessWidget {
@@ -38,21 +31,19 @@ class HeaderLogo extends StatelessWidget {
           text: TextSpan(
             children: [
               TextSpan(
-                text: "M",
-                style: GoogleFonts.oswald(
+                text: "joaopaulovieira",
+                style: GoogleFonts.roboto(
                   color: Colors.white,
-                  fontSize: 32.0,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
                 ),
               ),
               TextSpan(
-                text: ".",
-                style: GoogleFonts.oswald(
+                text: ".dev",
+                style: GoogleFonts.roboto(
                   color: kPrimaryColor,
-                  fontSize: 36.0,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
                 ),
-              )
+              ),
             ],
           ),
         ),
